@@ -1,0 +1,43 @@
+//Installation process of Kali Linux (Dual booting with windows10 pro)
+
+Tools Required :
+    * USB Drive - minimum 8GB
+    * Kali Linux ISO File(4GB)
+    * Rufus (or) Ventoy sofware - To create bootable usb with Kali linux iso file
+    * Create New Partition disk for Kali Linux (From Windows Disk Management) 
+    
+    //recommended
+        >> Ventoy
+        >> Minimum 50 GB for Partition Disk
+    
+
+Pre-Configuration (In Boot menu) :
+    * Disable Secure Boot 
+    * Select system Configration
+        >> Select SATA Operation 
+            >> Select AHCI instead of RAID On 
+
+    [Video - https://www.youtube.com/watch?v=an0M0-qPBeU]
+
+Process :
+    * Turn On Computer With Boot menu (Press and hold F12 - for DELL)
+    * Select Booted USB Drive from UEFI Boot 
+    * Select Graphical Installation
+    * Select wireless netwrok and enter passward for network Configuration
+    * Create user name and password
+    * Partition Disks :
+        >> Select Manual (partition method)
+        >> Select already created partition for Kali(Free space)
+            >> Create Partition for "Swap Area" (4 GB)
+            >> Create Partition for "exe 4" (Remaining space in partition disk)
+            [Done Setting up the partition and Finish Partitioning]
+    * Installation of base system - It may take (20-30) min 
+    * Install the GRUB boot loader on PRIMARY DISK (where the Windows OS Installed)
+      [Partition disk created for kali is not recommended for GRUB]
+    *Select Destop Environment(optional)
+    * Finish the Process.
+
+    [Video - https://www.youtube.com/watch?v=TgYghwFIGYY]
+
+---END---
+
