@@ -1,4 +1,4 @@
-//Installation process of Kali Linux (Dual booting with windows10 pro)
+//Installation process of Kali Linux (Dual booting with windows)
 
 Tools Required :
     * USB Drive - minimum 8GB
